@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            h1 {
+                font:italic 50px "fantasy";
+                color:blue;
+                background-color:lightgray;
+            }
+            .contents_details {
+                color:red;
+                background-color:yellow;
+                font-family:Verdana;
+                font-weight:normal;
+                
+            }
+            p {
+                line-height:2em;
+                border:5px dashed gray;
+                background-color:pink;
+            }
+            #fpara {
+                background-color:purple;
+            }
+            h6 {
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Job Experience blog</h1>
+
+        <h3 class="contents_details">Contents</h3>
+        <ul>
+            <a href="#fpost"><li>First post!</li> </a>
+             <a href="#spost"><li>Second post!</li> </a>
+        </ul>
+        
+        <h2 id="fpost">First post</h2>
+        <h6>20 Dec,2010</h6>
+        <p id="fpara">My first IT job at HBL bank as IT support Engineer. Started date mentioned above. It is a monthly contractual job for the period of one year. The key factors of this job to travle and serve the tusnami affectives family to providing Watan Card by Government subsidy.My duties to maintain the network connectivity, balance the cards and posted number of affectives families.This job ended on 30th Oct,2011.In this tenure i enjoyed and travel a lot.</p>
+        
+         <h2 id="spost">Second post</h2>
+        <h6>1st Nov,2011</h6>
+        <p>After the finish my monthly contractual job. I started annual contractual job at the same bank.Now my job key factors are maintain IT infrastructure, network connectivity, users support, pc troubleshooting, software installation and update IT policies as per bank required. Here i am looking HBL +47 Branches and +200 ATMs in this region.I am still at the same position and contractual job.</p>
+        
+    </body>
+</html>
